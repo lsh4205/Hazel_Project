@@ -1,0 +1,98 @@
+{
+    "air": {
+        "flightFrequency": {
+            "0Less": 0.99999999,
+            "25Less": 0.75,
+            "50Less": 0.5,
+            "75Less": 0.25,
+            "100Less": 0.001
+        },
+        "flightClass": {
+            "economy": 978,
+            "business": 1956,
+            "firstClass": 2934
+        },
+        "flightStops": {
+            "0Stops": 0.01,
+            "1-2Stops": 300,
+            "2+Stops": 500
+        }
+    },
+    "car":{
+        "carType": {
+            "EV": 3932,
+            "Hybrid": 5772,
+            "Gas": 11435
+        },
+        "drivingHours": {
+            "0Less": 0.99999999,
+            "25Less": 0.75,
+            "50Less": 0.5,
+            "75Less": 0.25
+        },
+        "transportationType": {
+            "Bus": 4894.18,
+            "Train": 7563,
+            "SharedCar": 5717.5
+        }
+    },
+    "electricity": {
+        "powerSource":{
+            "Renewable": 100,
+            "Half": 2239,
+            "Natural": 4479
+        },
+        "electricityBill": {
+            "0Less": 0.99999999,
+            "25Less": 0.75,
+            "50Less": 0.5,
+            "75Less": 0.25,
+            "100Less": 0.01
+        },
+        "stoveType": {
+            "Induction": 154,
+            "Electric": 165,
+            "Gas": 176
+        }
+    },
+    "housing": {
+        "bedroomNum": {
+            "1-2Bedrooms": 500,
+            "2-4Bedrooms": 1500,
+            "4+Bedrooms": 2500
+        },
+        "areaType" : {
+            "rural": 0.93,
+            "suburbs": 0.97,
+            "urban": 0.99999999
+        },
+        "totalPeople": {
+            "1-2People": 1.5,
+            "3-4People": 0.99999999,
+            "5+People": 0.75
+        }
+    },
+    "lifestyle": {
+        "recycling": {
+            "0": 0.01,
+            "25": 547.8,
+            "50": 1095.6,
+            "75": 1494,
+            "100": 1992
+        },
+        "meatNum":{
+            "none": 0.01,
+            "1Pound": 750,
+            "3Pounds": 2250,
+            "5Pounds": 3750,
+            "5+Pounds": 5000
+        },
+        "onlineClothes": {
+            "0": 0.01,
+            "25": 125,
+            "50": 250,
+            "75": 375,
+            "100": 500
+        }
+    }
+}

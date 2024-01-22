@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.num-1-viz-tool-landing-div {
+  color: #2b6589;
+  font-family: Arial;
+  width: 100%;
+  height: 100%;
+  background: rgb(121,193,224);
+  background: linear-gradient(180deg, rgba(121,193,224,1) 0%, rgba(245,212,185,1) 100%);
+  flex-direction: column;
+  vertical-align:middle;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  font-family: 'Quickens'
+}
+
+.landing-page-background {
+  width:100%;
+  height:100%;
+ 
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-page-header {
+  width: 100%;
+  height: 8%;
+  object-fit: cover;
+
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  font-family: 'Quickens'
+}
+
+.overlay{
+  /* Use for landing page div */
+  opacity:0.8;
+  background-color:#ccc;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+}
+
+.landing-page-text {
+  margin-top: 7%;
+  height:30%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 80px;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+}
+
+.common-text {
+  margin-top: 10%;
+  height:5%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 40px;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+}
+
+.carbon-total {
+  margin-top: 10%;
+  height:5%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 40px;
+}
+
+.OR-text {
+  margin-top: 10%;
+  height:5%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 40px;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+}
+
+.suggestions-text-div {
+  height:80%;
+  flex-direction: column;
+  vertical-align:middle;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.landing-page-small-text {
+  margin-top: 15%;
+  height:20%;
+  text-align: center;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+}
+
+.get-started-button {
+  margin-top: 1%;
+  text-align: center;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+  width: 20%;
+  height: 50px;
+  align-items: stretch;
+  font-size: 2.0rem;
+  font-weight: 400;
+  background-color: #cad5ab;
+  border-radius: 20px;
+  flex-shrink: 10;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-right: 1px;
+  margin-bottom: 5%;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.centered-nav-button {
+  background-color: #cad5ab;
+  border-radius: 20px;
+  border-style: none;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+  font-size: 1.8rem;
+  width: 40%;
+  margin: 10px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  /* left: 25%; */
+  /* position: relative; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.centered-suggestions-button {
+  background-color: #cad5ab;
+  border-radius: 20px;
+  border-style: none;
+  font-family: 'Quickens';
+  font-weight: 'bold';
+  font-size: 1.8rem;
+  width: 40%;
+  margin: 10px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  left: 50%; 
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-div{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-to-side-div {
+  display:flex; 
+  flex-direction:row;
+  padding-top: 5%;
+}
